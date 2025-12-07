@@ -1,0 +1,19 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Build
+bin/
+obj/
+
+# Rider
+.idea/
+
+# Pacotes do NuGet
+*.nupkg
+packages/
+
+# Outros arquivos temporários
+*.log

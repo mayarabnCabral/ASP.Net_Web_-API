@@ -1,0 +1,25 @@
+API -> Application Programming Interface (Interface de Programação de Aplicação)
+    -> Conjunto de regras, padrões e ferramentas que permite a comunicação entre sistemas.
+    -> Pode ser disponibilizada na internet (API Web) para integração entre serviços.
+    -> Normalmente troca dados em formatos como JSON ou XML.
+
+
+Criando projeto 
+
+dotnet new webapi -n Nome
+cd Nome
+
+Gerando controller 
+
+Instale o pacote no projeto
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+
+Instale a ferramenta global do código gerador
+dotnet tool install -g dotnet-aspnet-codegenerator
+
+Atualize os pacotes (opcional, mas recomendado)
+dotnet restore
+
+Rode o scaffold 
+
+dotnet aspnet-codegenerator controller -name NomeDOController -api
