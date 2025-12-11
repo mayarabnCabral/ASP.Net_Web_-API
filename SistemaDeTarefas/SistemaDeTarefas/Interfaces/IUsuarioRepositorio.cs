@@ -8,6 +8,6 @@ namespace SistemaDeTarefas.Interfaces
         Task<UsuarioModel> BuscarPorId(int id); //Médoto para buscar usuário por id
         Task<UsuarioModel> Adicionar(UsuarioModel usuaroio); // Método para adicionar um novo usuário
         Task<UsuarioModel> Atualizar(UsuarioModel usuario, int id); // Método para atualizar um usuário existente
-        Task<bool> apagar(int id); // Método para excluir usuário
+        Task<bool> Apagar(int id); // Método para excluir usuário
     }
 }

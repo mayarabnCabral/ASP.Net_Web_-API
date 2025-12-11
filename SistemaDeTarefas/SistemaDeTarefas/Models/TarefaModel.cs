@@ -9,5 +9,7 @@
         public string? Descricao { get; set; } // Descrição da tarefa
 
         public int Status { get; set; } // Status da tarefa (0 - Pendente, 1 - Em Progresso, 2 - Concluída)
+        public int UsuarioId { get; set; }
+        public UsuarioModel Usuario { get; set; }
     }
 }
