@@ -24,10 +24,10 @@ namespace SistemaDeTarefas.Repositorios
         }
 
         
-        public async Task<List<UsuarioModel>> BuscarTodosOsUsuarios()// Retorna todos os usuários
+        public async Task<List<UsuarioModel>> BuscarTodosOsUsuarios() // Retorna todos os usuários
         {
             
-            return await _dbContext.Usuarios.ToListAsync();// Converte o DbSet em uma lista assíncrona
+            return await _dbContext.Usuarios.ToListAsync(); // Converte o DbSet em uma lista assíncrona
         }
 
         
